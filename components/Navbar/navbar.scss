@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 15px;
+
+    .wrapper{
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+
+        .search{
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px;
+            border-radius: 4px;
+
+            input{
+                outline: none;
+                border: none;
+                background-color: transparent;
+
+                ::placeholder{
+                    font-size: 12px;
+                }
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+       .item{
+        margin-right: 15px;
+        align-items: center;
+
+        .icon{
+            font-size: 20px;
+        }
+       }
+        }
+    }
+}
